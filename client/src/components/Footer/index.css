@@ -1,0 +1,61 @@
+footer .icons i{
+    font-size: 22px;
+    color:black;
+    background-color: gray;
+    padding:10px 10px;
+    margin:2px 4px;
+    border-radius: 50px;
+    
+}
+footer{
+    padding:2rem;
+    background-color: #fff;
+    color:#000;
+}
+footer h2{
+    color:#000;
+    font-size: 18px;
+    
+}
+footer li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: lighter;
+    cursor:pointer;
+    margin: 1rem;
+}
+footer li a{
+    color:grey;
+    text-decoration: none;
+}
+footer li a:hover{
+    color:#000
+}
+
+.icons i:hover{
+    background-color: #fff;
+    transition: all 1s;
+    
+
+}
+@media screen  and (max-width:992px){
+    .icons{
+        margin-top: 20px;
+    }
+    .icons a{
+        margin:5px
+    }
+}
+@media screen  and (max-width:568px){
+    
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icons a{
+    padding:5px 5px
+}
+}

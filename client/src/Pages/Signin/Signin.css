@@ -1,0 +1,230 @@
+.container4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+ul li {
+  list-style: none;
+}
+
+.main4 {
+  margin: auto;
+  background-color: #fff;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  margin-bottom: 50px;
+  flex-direction: column;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  margin: 0 auto;
+}
+.header-menu {
+  margin: auto 0;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  color: #000;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+li {
+  cursor: pointer;
+}
+#header-login-button {
+  background-color: transparent;
+  border: none;
+}
+#header-login-button:hover + #header-login-line {
+  width: 90%;
+}
+
+#header-login-line {
+  margin: 5px auto;
+  height: 4px;
+  width: 50%;
+  background-color: #000;
+  border-radius: 2px;
+  transition-duration: 200ms;
+  display: block;
+}
+#header-register-button {
+  background-color: #fff;
+  padding: 10px 30px 10px 30px;
+  transition-duration: 400ms;
+}
+
+#header-register-button :hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#content-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 300px);
+  justify-content: center;
+  margin-left: 5%;
+  gap: 20px;
+}
+.client-info {
+  margin: 0 60px;
+  width: 70%;
+  height: 60px;
+  background-color: #efefef;
+  border: solid #e5ebf5 2px;
+  border-radius: 15px;
+  text-indent: 20px;
+  color: #19122b;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.client-info:focus {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#recovery:link {
+  text-decoration: none;
+  color: #777a84;
+  padding-left: 54%;
+}
+#signin-button {
+  width: 70%;
+  height: 60px;
+  background-color: #000;
+  border: none;
+  margin: 10px 55px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 15px;
+  font-weight: 400;
+  transition-duration: 200ms;
+}
+#signin-button:hover {
+  box-shadow: 0 20px 20px rgba(11, 11, 12, 0.5);
+}
+
+#other-option-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 70%;
+}
+.line {
+  width: 30%;
+  height: 2px;
+  background-color: #d8d8d9;
+  margin-top: 0.6em;
+}
+#continue-with {
+  color: #9599ab;
+}
+#other-icon-wrapper {
+  margin: 10px auto;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.other-icon {
+  display: flex;
+  width: 25%;
+  height: 60px;
+  background-color: transparent;
+  border: solid #dddede 2px;
+  border-radius: 10px;
+  transition-duration: 400ms;
+}
+.other-icon:hover {
+  border: solid #fff 2px;
+  background-color: #fff;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.login1 {
+  width: 320px;
+  padding: 30px;
+  padding-top: 156px;
+}
+
+.login__field {
+  padding: 20px 0px;
+  position: relative;
+}
+
+.login__icon {
+  position: absolute;
+  top: 30px;
+  color: #000;
+}
+
+.login__input {
+  border: none;
+  border-bottom: 2px solid #d1d1d4;
+  background: none;
+  padding: 10px;
+  padding-left: 24px;
+  font-weight: 700;
+  width: 75%;
+  transition: 0.2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+  outline: none;
+  border-bottom-color: #000;
+}
+
+.login__submit {
+  background: #fff;
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 16px 20px;
+  border-radius: 26px;
+  border: 1px solid #d4d3e8;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #000;
+  box-shadow: 0px 2px 2px #000;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+  border-color: #000;
+  outline: none;
+}
+
+.button__icon {
+  font-size: 24px;
+  margin-left: auto;
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  .main4 {
+    width: fit-content;
+    box-shadow: none;
+  }
+  #header-register-button {
+    box-shadow: none;
+  }
+  #content-wrapper {
+    gap: 10px;
+    margin-left: 0%;
+  }
+}

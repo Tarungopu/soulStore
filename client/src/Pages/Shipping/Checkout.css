@@ -1,0 +1,78 @@
+.steps {
+  font-size: 18px;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 12px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+.address {
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: monospace;
+}
+.order {
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: monospace;
+}
+.miniaddress {
+  font-size: 18px;
+  font-family: monospace;
+}
+.miniorder {
+  font-size: 18px;
+  font-family: monospace;
+}
+.smallcart {
+  font-size: 18px;
+}
+.steps:hover {
+  color: #000;
+  background-color: #fff;
+}
+.buttonstep {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 568px) {
+  .steps {
+    font-size: 12px;
+    padding: 8px 8px;
+    border-radius: 50px;
+    font-family: monospace;
+
+    font-size: 10px;
+  }
+  .shippinge {
+    font-size: 18px;
+  }
+  .payment {
+    font-size: 18px;
+  }
+  .address {
+    font-size: 16px;
+  }
+  .order {
+    font-size: 16px;
+  }
+  .smallcart {
+    font-size: 10px;
+  }
+  .miniaddress {
+    font-size: 10px;
+  }
+  .miniorder {
+    font-size: 10px;
+  }
+
+  .buttonstep {
+    font-size: 12px;
+    padding: 4px 4px;
+    border-radius: 50px;
+  }
+  .cod {
+    font-size: 18px;
+  }
+}

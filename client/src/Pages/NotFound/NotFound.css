@@ -1,0 +1,17 @@
+.Homenotfound {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 48px;
+  transform: translate(-50%, -50%);
+}
+.notfound {
+  font-size: 48px;
+}
+@media screen and (max-width: 768px) {
+  .Homenotfound,
+  .notfound {
+    font-size: 18px;
+  }
+}

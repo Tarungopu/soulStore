@@ -1,0 +1,76 @@
+.edit {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+.edit-header,
+.edit p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.edit-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #000;
+}
+
+.edit-header {
+  background: #000;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.edit-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+.edit p {
+  padding: 12px;
+}
+
+.edit .editfields {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.edit input[type="email"],
+.edit input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+.edit input[type="email"]:focus,
+.edit input[type="password"]:focus {
+  border-color: #888;
+}
+
+.edit .submit {
+  background: #000;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit .submit:hover {
+  background: #000;
+  box-shadow: -8px 6px 0px 0px rgba(0,0,0,0.15);
+  -webkit-box-shadow: -8px 6px 0px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: -8px 6px 0px 0px rgba(0,0,0,0.15);}
+

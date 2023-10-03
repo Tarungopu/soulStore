@@ -1,0 +1,156 @@
+.pinned {
+  color: black;
+  left: 1rem;
+  position: absolute;
+  top: 1rem;
+  background-color: #fff;
+  padding: 10px 15px;
+  font-weight: 800;
+  font-size: 22px;
+  border-radius: 50px;
+  transition: all 0.2s ease-out;
+}
+.img-container:hover .pinned {
+  color: #fff;
+
+  background-color: #000;
+}
+.aboutus {
+  position: fixed;
+  margin: 0;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 18px;
+  background-color: #000;
+  padding: 10px 12px;
+  letter-spacing: 0.5px;
+  border-radius: 50px;
+  z-index: 1;
+}
+.cancel {
+  font-size: 18px;
+  color: #fff;
+}
+.pinned2 {
+  color: #fff;
+  right: 1rem;
+  position: absolute;
+  top: 1rem;
+  background-color: #000;
+  padding: 10px 15px;
+  font-weight: 800;
+  font-size: 22px;
+  border-radius: 50px;
+  transition: all 0.2s ease-in;
+}
+.img-container:hover .pinned2 {
+  color: #000;
+  transition: all 0.2s ease-in;
+  background-color: #fff;
+}
+.img-container {
+  background: #fff;
+  position: relative;
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000;
+
+  opacity: 0;
+}
+.img-container:hover .overlay {
+  opacity: 0.09;
+}
+.card_button3 {
+  color: #fff;
+  background-color: #000;
+  padding: 12px 10px;
+  border-radius: 50px;
+  position: absolute;
+  top: 17%;
+  left: 5%;
+}
+.card_button3:hover {
+  background-color: #fff;
+  color: #000;
+}
+.carticon {
+  font-size: 22px;
+  background: black;
+  padding: 10px 30px;
+  color: #fff;
+  text-align: center;
+  outline: none;
+  border: none;
+  top: 84%;
+  left: 30%;
+  position: absolute;
+  font-weight: 800;
+  border-radius: 50px;
+  transition: all 0.2s ease-out;
+}
+
+.carticon:hover {
+  background-color: #fff;
+  color: #000;
+}
+.buttoncarto {
+  font-size: 32px;
+  color: #000;
+  text-align: center;
+}
+.movetozero {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 400;
+}
+.good {
+  font-size: 52px;
+  font-weight: 900;
+}
+@media screen and (max-width: 768px) {
+  .card_button3 {
+    font-size: 12px;
+    padding: 10px 10px;
+    top: 15%;
+  }
+  .aboutus {
+    margin: 0;
+    position: fixed;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .movetozero {
+    font-size: 24px;
+  }
+  .good {
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  .carticon,
+  .pinned,
+  .pinned2 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .movetozero {
+    font-size: 18px;
+  }
+  .good {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+}

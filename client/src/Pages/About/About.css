@@ -1,0 +1,123 @@
+.cardeee {
+  margin: 30px auto;
+  position: relative;
+  width: 320px;
+  height: 320px;
+  border-radius: 50px;
+  background: #ffff;
+  box-shadow: 9px 9px 18px #cbcbcb, -9px -9px 18px #ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.title {
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cardeee:hover {
+  transform: scale(0.9, 0.9);
+  border-radius: 50px;
+  border-radius: 50px;
+  border-radius: 50px;
+  background: #ffff;
+  box-shadow: 9px 9px 18px #cbcbcb, -9px -9px 18px #ffffff;
+}
+.cardeee .cardeee_background {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.cardeee .cardeee_background img {
+  width: 50px;
+  margin-top: 52%;
+  height: 50px;
+  border-radius: 999px;
+  object-fit: cover;
+}
+.cardeee_img {
+  position: absolute;
+  top: 8%;
+  left: 30%;
+}
+.cardeee_img img {
+  width: 125px;
+  height: 125px;
+  background: #ffff;
+  box-shadow: 9px 9px 18px #cbcbcb, -9px -9px 18px #ffffff;
+  border-radius: 999px;
+  left: 20px;
+}
+
+.social-linke a {
+  color: black;
+  font-size: 20px;
+}
+
+.box {
+  margin: 30px auto;
+  position: relative;
+  width: 320px;
+  height: 320px;
+  border-radius: 50px;
+  background: #ffff;
+  box-shadow: 9px 9px 18px #cbcbcb, -9px -9px 18px #ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.box .front {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  cursor: pointer;
+  background: #ffff;
+  box-shadow: 9px 9px 18px #cbcbcb, -9px -9px 18px #ffffff;
+  transition: 0.4s;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: 1s;
+}
+.box:hover .front {
+  transform: perspective(1000px) rotateY(180deg);
+}
+.box .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  background: #ffff;
+  box-shadow: 9px 9px 18px #cbcbcb, -9px -9px 18px #ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(-180deg);
+  transition: 1s;
+}
+.box:hover .back {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+.box .back .row {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  box-sizing: border-box;
+  border-radius: 50px;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .box {
+    width: 100%;
+    height: 100%;
+  }
+}
